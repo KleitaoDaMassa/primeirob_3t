@@ -64,13 +64,15 @@ function total(){
         document.getElementById("meses").focus();
         return
     }
-
+    let texto =""
     let r = 0;
     for(let i=1; i <= t;i++){
          r = v * (1+(j/100));
-         document.write("Mês " + " valor: " + moeda(r) + "<br>");
+         texto +="Mês " + i = "valor: "+ moeda(r);         
          v = r;
     }
-    document.write("resultado: " + moeda(r));
+    document.getElementById("mes").innerHTML=texto;
+    document.getElementById("totalGeral").innerHTML="Total: "+moeda(r);
+    
 }
 
