@@ -76,3 +76,21 @@ function total(){
     
 }
 
+let a = 5;
+let b = -1;
+let c = -6;
+let raiz_quadrada
+
+function calcularRaiz
+    let delta = (b*b)-(-4*a*c);
+    let x1, x2;
+    if (delta < 0){
+
+    }eslse{
+        raiz_quadrada = Math.sqrt(delta);
+        x1 = ((-b) + raiz_quadrada)/(2*a);
+        x2 = ((-b) - raiz_quadrada)/(2*a);
+    }
+
+    document.getElementById("raiz").innerHTML = delta
+
